@@ -1,0 +1,70 @@
+*{
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+
+body{
+font-family: 'Outfit', sans-serif;
+background-color: hsl(212, 45%, 89%);
+}
+
+h1{
+  font-size: 18px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+    margin-top: 30px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p{
+  font-size: 15px;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+}
+
+img{
+  width:230px;
+  height: 230px;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+footer{
+  margin-top: 150px;
+
+}
+
+.container{
+  align-items: center;
+margin-left: 42%;
+  margin-top: 13%;
+}
+@media only screen and (max-width: 1000px){
+  .container{
+    margin-left: 30%;
+  }
+}
+
+.card{
+  align-items: center;
+  border-radius: 5%;
+  width: 300px;
+  height: 500px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.attribution{
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
