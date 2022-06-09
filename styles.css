@@ -1,6 +1,6 @@
 *{
-  box-sizing: content-box;
-  overflow: hidden;
+  box-sizing: border-box;
+
 }
 
 
@@ -10,11 +10,8 @@ background-color: hsl(212, 45%, 89%);
 }
 
 h1{
-  font-size: 18px;
+  font-size: 23px;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-    margin-top: 30px;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
 }
@@ -22,35 +19,26 @@ h1{
 p{
   font-size: 15px;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 12px;
+  padding: 0 12px;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
 }
 
 img{
-  width:230px;
-  height: 230px;
-  padding-left: 10%;
-  padding-top: 10%;
-}
-
-footer{
-  margin-top: 150px;
+  width:100%;
+  height: 288px;
+  border-radius: 10px;
 
 }
 
 .container{
+  display: flex;
+  justify-content: center;
   align-items: center;
-margin-left: 42%;
-  margin-top: 13%;
+  min-height: 100vh;
 }
-@media only screen and (max-width: 1000px){
-  .container{
-    margin-left: 30%;
-  }
-}
+
 
 .card{
   align-items: center;
@@ -58,6 +46,7 @@ margin-left: 42%;
   width: 300px;
   height: 500px;
   background-color: hsl(0, 0%, 100%);
+  padding: 16px;
 }
 
 .attribution{
@@ -68,3 +57,4 @@ margin-left: 42%;
 .attribution a {
    color: hsl(228, 45%, 44%);
  }
+
